@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumière Studio · Uñas & Pestañas · Villa Alemana</title>
+  <meta name="description" content="Estudio de belleza premium en Villa Alemana. Uñas, pestañas y cejas con acabado profesional. Agenda tu cita hoy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-mark">✦</span>
+        <span class="nav__logo-text">Lumière<em>Studio</em></span>
+      </a>
+      <nav class="nav__links">
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#testimonios">Reseñas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a href="https://wa.me/56912345678?text=Hola,%20quiero%20agendar%20una%20cita" target="_blank" class="btn btn--whatsapp nav__cta">
+        <i class="fa-brands fa-whatsapp"></i> Agendar
+      </a>
+      <button class="nav__burger" id="burger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#servicios" class="nav__mobile-link">Servicios</a>
+      <a href="#galeria" class="nav__mobile-link">Galería</a>
+      <a href="#testimonios" class="nav__mobile-link">Reseñas</a>
+      <a href="#contacto" class="nav__mobile-link">Contacto</a>
+      <a href="https://wa.me/56912345678" target="_blank" class="btn btn--whatsapp" style="width:100%;justify-content:center;margin-top:1rem;">
+        <i class="fa-brands fa-whatsapp"></i> Agendar por WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <img src="images/hero-nails.jpg" alt="Uñas premium Lumière Studio" class="hero__bg-img hero__bg-img--nails" />
+      <img src="images/hero-lashes.jpg" alt="Pestañas Lumière Studio" class="hero__bg-img hero__bg-img--lashes" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Villa Alemana · Estudio de Belleza</p>
+      <h1 class="hero__title reveal">
+        Tu belleza,<br/><em>elevada.</em>
+      </h1>
+      <p class="hero__sub reveal">
+        Uñas, pestañas y cejas con acabado premium.<br/>
+        Porque los detalles marcan la diferencia.
+      </p>
+      <div class="hero__ctas reveal">
+        <a href="https://wa.me/56912345678?text=Hola,%20quiero%20agendar%20una%20cita" target="_blank" class="btn btn--primary">
+          Reservar cita
+        </a>
+        <a href="#servicios" class="btn btn--ghost">
+          Ver servicios
+        </a>
+      </div>
+      <div class="hero__stats reveal">
+        <div class="hero__stat">
+          <span class="hero__stat-num">+500</span>
+          <span class="hero__stat-label">Clientas felices</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">5★</span>
+          <span class="hero__stat-label">Calificación promedio</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">4+</span>
+          <span class="hero__stat-label">Años de experiencia</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Descubrir</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- INTRO STRIP -->
+  <section class="strip">
+    <div class="strip__inner">
+      <span>✦ Atención personalizada</span>
+      <span>✦ Productos premium</span>
+      <span>✦ Higiene certificada</span>
+      <span>✦ Resultados que duran</span>
+      <span>✦ Villa Alemana</span>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Nuestros servicios</p>
+        <h2 class="section-title">Arte que se lleva <em>puesto.</em></h2>
+        <p class="section-sub">Cada servicio está diseñado para realzar tu belleza natural con técnica, precisión y un acabado que habla solo.</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-card__img-wrap">
+            <img src="Nai Art.jpg" alt="Uñas semipermanente y acrílicas" class="service-card__img" />
+            <div class="service-card__badge">Más pedido</div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">💅</div>
+            <h3 class="service-card__title">Nail Art & Manicure</h3>
+            <p class="service-card__desc">Semipermanente, acrílicas, polygel y diseños personalizados que duran semanas sin perder su brillo.</p>
+            <ul class="service-card__list">
+              <li><span>Semi manos</span><span>desde $12.000</span></li>
+              <li><span>Semi pies</span><span>desde $10.000</span></li>
+              <li><span>Acrílicas</span><span>desde $25.000</span></li>
+              <li><span>Polygel</span><span>desde $22.000</span></li>
+            </ul>
+            <a href="https://wa.me/56912345678?text=Hola,%20me%20interesa%20el%20servicio%20de%20uñas" target="_blank" class="service-card__cta">Consultar disponibilidad →</a>
+          </div>
+        </div>
+
+        <div class="service-card service-card--featured reveal">
+          <div class="service-card__img-wrap">
+            <img src="Extension de pestaña .webp" alt="Extensiones de pestañas" class="service-card__img" />
+            <div class="service-card__badge">Premium</div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">✨</div>
+            <h3 class="service-card__title">Extensiones de Pestañas</h3>
+            <p class="service-card__desc">Pelo a pelo, volumen ruso o efecto mojado. Pestañas que transforman tu mirada desde el primer día.</p>
+            <ul class="service-card__list">
+              <li><span>Pelo a pelo</span><span>desde $28.000</span></li>
+              <li><span>Volumen clásico</span><span>desde $32.000</span></li>
+              <li><span>Volumen ruso</span><span>desde $38.000</span></li>
+              <li><span>Relleno</span><span>desde $15.000</span></li>
+            </ul>
+            <a href="https://wa.me/56912345678?text=Hola,%20me%20interesan%20las%20extensiones%20de%20pestañas" target="_blank" class="service-card__cta">Consultar disponibilidad →</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__img-wrap">
+            <img src="lifting pestañas.webp" alt="Lifting de pestañas" class="service-card__img" />
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">🌙</div>
+            <h3 class="service-card__title">Lifting & Tinte</h3>
+            <p class="service-card__desc">El tratamiento estrella para quienes buscan una mirada abierta y expresiva de forma natural y sin mantenimiento.</p>
+            <ul class="service-card__list">
+              <li><span>Lifting pestañas</span><span>desde $18.000</span></li>
+              <li><span>Lifting + tinte</span><span>desde $22.000</span></li>
+              <li><span>Tinte solo</span><span>desde $8.000</span></li>
+            </ul>
+            <a href="https://wa.me/56912345678?text=Hola,%20me%20interesa%20el%20lifting%20de%20pestañas" target="_blank" class="service-card__cta">Consultar disponibilidad →</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__img-wrap">
+            <img src="diseño de cejas.jpg" alt="Diseño de cejas" class="service-card__img" />
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">🖊</div>
+            <h3 class="service-card__title">Diseño de Cejas</h3>
+            <p class="service-card__desc">Perfilado, hilo, cera y laminado. Cejas bien diseñadas que enmarca tu rostro y redefinan tu expresión.</p>
+            <ul class="service-card__list">
+              <li><span>Perfilado</span><span>desde $6.000</span></li>
+              <li><span>Laminado cejas</span><span>desde $20.000</span></li>
+              <li><span>Henna cejas</span><span>desde $12.000</span></li>
+            </ul>
+            <a href="https://wa.me/56912345678?text=Hola,%20me%20interesa%20el%20diseño%20de%20cejas" target="_blank" class="service-card__cta">Consultar disponibilidad →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="benefits">
+    <div class="benefits__bg"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">¿Por qué elegirnos?</p>
+        <h2 class="section-title">Una experiencia <em>distinta.</em></h2>
+      </div>
+      <div class="benefits__grid">
+        <div class="benefit reveal">
+          <div class="benefit__icon"><i class="fa-regular fa-gem"></i></div>
+          <h4>Productos de alta gama</h4>
+          <p>Trabajamos solo con marcas profesionales importadas para garantizar resultados duraderos y seguros.</p>
+        </div>
+        <div class="benefit reveal">
+          <div class="benefit__icon"><i class="fa-regular fa-star"></i></div>
+          <h4>Atención personalizada</h4>
+          <p>Te escuchamos, te asesoramos y adaptamos cada servicio a tu estilo, forma de manos y tipo de mirada.</p>
+        </div>
+        <div class="benefit reveal">
+          <div class="benefit__icon"><i class="fa-regular fa-shield-check"></i></div>
+          <h4>Higiene impecable</h4>
+          <p>Protocolos estrictos de esterilización en cada herramienta y material. Tu seguridad es nuestra prioridad.</p>
+        </div>
+        <div class="benefit reveal">
+          <div class="benefit__icon"><i class="fa-regular fa-clock"></i></div>
+          <h4>Puntualidad garantizada</h4>
+          <p>Respetamos tu tiempo. Agendas previas, atención sin esperas innecesarias y horarios flexibles.</p>
+        </div>
+        <div class="benefit reveal">
+          <div class="benefit__icon"><i class="fa-regular fa-location-dot"></i></div>
+          <h4>Ubicación conveniente</h4>
+          <p>En el corazón de Villa Alemana, fácil acceso, estacionamiento cercano y ambiente acogedor.</p>
+        </div>
+        <div class="benefit reveal">
+          <div class="benefit__icon"><i class="fa-regular fa-heart"></i></div>
+          <h4>Resultado garantizado</h4>
+          <p>Si algo no cumple tus expectativas, lo corregimos sin costo adicional. Así de seguras estamos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Galería de trabajos</p>
+        <h2 class="section-title">El detalle <em>lo dice todo.</em></h2>
+        <p class="section-sub">Cada imagen es un trabajo real. Así luce la dedicación que ponemos en cada clienta.</p>
+      </div>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--tall reveal">
+        <img src="nail art.webp" alt="Nail art diseño premium" />
+        <div class="gallery__overlay"><span>Nail Art · Semi</span></div>
+      </div>
+      <div class="gallery__item reveal">
+        <img src="Extension pp.jpg" alt="Extensiones pelo a pelo" />
+        <div class="gallery__overlay"><span>Extensiones PP</span></div>
+      </div>
+      <div class="gallery__item reveal">
+        <img src="lifting naturales pestañas.jpg" alt="Lifting pestañas natural" />
+        <div class="gallery__overlay"><span>Lifting Natural</span></div>
+      </div>
+      <div class="gallery__item gallery__item--wide reveal">
+        <img src="acrilicas diseño almond.jpg" alt="Acrílicas diseño almond" />
+        <div class="gallery__overlay"><span>Acrílicas Almond</span></div>
+      </div>
+      <div class="gallery__item reveal">
+        <img src="Volumen Ruso.webp" alt="Volumen ruso" />
+        <div class="gallery__overlay"><span>Volumen Ruso</span></div>
+      </div>
+      <div class="gallery__item reveal">
+        <img src="laminado cejas HD.webp" alt="Laminado cejas" />
+        <div class="gallery__overlay"><span>Laminado Cejas</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="testimonials" id="testimonios">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Lo que dicen ellas</p>
+        <h2 class="section-title">Clientas que <em>vuelven.</em></h2>
+      </div>
+      <div class="testimonials__grid">
+
+        <div class="testimonial reveal">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"Fui por primera vez sin muchas expectativas y quedé completamente encantada. Mis acrílicas duraron casi un mes perfectas. El ambiente es hermoso y súper limpio. Ya tengo mi próxima cita agendada."</p>
+          <div class="testimonial__author">
+            <img src="images/testimonial-1.jpg" alt="Valentina R." class="testimonial__avatar" />
+            <div>
+              <strong>Valentina R.</strong>
+              <span>Villa Alemana</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial testimonial--featured reveal">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"Las extensiones quedaron tal como las quería. Natural pero con efecto. Me han preguntado si son mis pestañas reales 🤍 Súper recomendada, la atención es increíble y se nota que aman lo que hacen."</p>
+          <div class="testimonial__author">
+            <img src="images/testimonial-2.jpg" alt="Camila F." class="testimonial__avatar" />
+            <div>
+              <strong>Camila F.</strong>
+              <span>Quilpué</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial reveal">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"Me hice el lifting con tinte y fue lo mejor que pude hacer. Llevo 3 semanas y siguen impecables. Me ahorra tiempo todas las mañanas. El servicio es rápido, profesional y el resultado supera las fotos."</p>
+          <div class="testimonial__author">
+            <img src="images/testimonial-3.jpg" alt="Isidora M." class="testimonial__avatar" />
+            <div>
+              <strong>Isidora M.</strong>
+              <span>Villa Alemana</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO / UBICACIÓN -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="contact__info reveal">
+          <p class="section-eyebrow">Encuéntranos</p>
+          <h2 class="section-title">Visítanos en<br/><em>Villa Alemana.</em></h2>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <i class="fa-regular fa-location-dot"></i>
+              <div>
+                <strong>Dirección</strong>
+                <span>Av. Maipú 1234, Villa Alemana<br/>Región de Valparaíso</span>
+              </div>
+            </div>
+            <div class="contact__detail">
+              <i class="fa-regular fa-clock"></i>
+              <div>
+                <strong>Horario</strong>
+                <span>Lunes a Viernes: 10:00 – 20:00<br/>Sábado: 10:00 – 17:00</span>
+              </div>
+            </div>
+            <div class="contact__detail">
+              <i class="fa-brands fa-whatsapp"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>+56 9 1234 5678</span>
+              </div>
+            </div>
+            <div class="contact__detail">
+              <i class="fa-brands fa-instagram"></i>
+              <div>
+                <strong>Instagram</strong>
+                <span>@lumierestudio.va</span>
+              </div>
+            </div>
+          </div>
+          <a href="https://wa.me/56912345678?text=Hola,%20quiero%20agendar%20una%20cita" target="_blank" class="btn btn--primary" style="margin-top:2rem;">
+            <i class="fa-brands fa-whatsapp"></i> Agendar ahora
+          </a>
+        </div>
+        <div class="contact__map reveal">
+          <div class="contact__map-inner">
+            <div class="contact__map-placeholder">
+              <div class="contact__map-pin">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <p><strong>Lumière Studio</strong></p>
+              <p>Av. Maipú 1234, Villa Alemana</p>
+              <a href="https://maps.google.com/?q=Villa+Alemana,+Chile" target="_blank" class="btn btn--ghost" style="margin-top:1.5rem;font-size:.8rem;">
+                Ver en Google Maps →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-final">
+    <div class="cta-final__bg"></div>
+    <div class="cta-final__content reveal">
+      <p class="section-eyebrow" style="color:rgba(255,255,255,.65);">¿Lista para el cambio?</p>
+      <h2 class="cta-final__title">Tu cita perfecta<br/>está a un mensaje.</h2>
+      <p class="cta-final__sub">Agenda ahora y asegura tu horario. Los cupos son limitados cada semana.</p>
+      <a href="https://wa.me/56912345678?text=Hola,%20quiero%20agendar%20una%20cita%20en%20Lumière%20Studio" target="_blank" class="btn btn--cta-final">
+        <i class="fa-brands fa-whatsapp"></i> Escríbenos por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="nav__logo-mark">✦</span>
+          <span class="nav__logo-text" style="font-size:1.4rem;">Lumière<em>Studio</em></span>
+          <p>Belleza premium en Villa Alemana.<br/>Uñas · Pestañas · Cejas.</p>
+        </div>
+        <div class="footer__links">
+          <a href="#servicios">Servicios</a>
+          <a href="#galeria">Galería</a>
+          <a href="#testimonios">Reseñas</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <div class="footer__social">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/56912345678" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://tiktok.com" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Lumière Studio · Villa Alemana · Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/56912345678?text=Hola,%20quiero%20agendar%20una%20cita" target="_blank" class="wa-float" aria-label="Agendar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
