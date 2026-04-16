@@ -1,32 +1,34 @@
-# /images — Lumière Studio
+# lumiereStudio
 
-Reemplaza cada archivo con una imagen real de alta calidad.
+Proyecto web creativo orientado a representar una marca, estudio o concepto visual con identidad moderna y estética cuidada.
 
-| Archivo               | Descripción                                          | Sugerencia de búsqueda (Unsplash / Pexels)     |
-|-----------------------|------------------------------------------------------|------------------------------------------------|
-| hero-nails.jpg        | Uñas bien fotografiadas, fondo limpio, luz cálida   | "nail art premium", "manicure elegant"         |
-| hero-lashes.jpg       | Primer plano ojos con pestañas espectaculares        | "eyelash extensions close up", "beautiful eyes"|
-| service-nails.jpg     | Uñas acrílicas o semipermanentes con diseño          | "acrylic nails design", "nail art close"       |
-| service-lifting.jpg   | Resultado lifting + tinte pestañas, vista real       | "lash lift before after", "natural lashes"     |
-| service-extensions.jpg| Extensiones pelo a pelo bien aplicadas               | "eyelash extensions natural", "lash extension" |
-| service-brows.jpg     | Cejas bien diseñadas, laminado o perfilado           | "eyebrow design lamination", "brow shaping"    |
-| gallery-1.jpg         | Nail art creativo, colores nude o rosados            | "nail art nude", "minimal nail design"         |
-| gallery-2.jpg         | Extensiones de pestañas, efecto húmedo o volumen     | "volume lashes", "wet look lashes"             |
-| gallery-3.jpg         | Lifting natural de pestañas, ojos abiertos           | "lash lift natural look"                       |
-| gallery-4.jpg         | Acrílicas almond con diseño                          | "almond acrylic nails", "pink almond nails"    |
-| gallery-5.jpg         | Volumen ruso, mirada intensa y dramática             | "russian volume lashes", "mega volume lashes"  |
-| gallery-6.jpg         | Laminado de cejas, resultado limpio                  | "brow lamination result", "fluffy brows"       |
-| testimonial-1.jpg     | Retrato femenino, sonrisa natural, luz suave         | "woman portrait natural", "girl smiling"       |
-| testimonial-2.jpg     | Retrato femenino, estilo moderno y limpio            | "young woman portrait"                         |
-| testimonial-3.jpg     | Retrato femenino, aspecto profesional y cercano      | "woman headshot natural"                       |
+## Descripción
 
-## Formato recomendado
-- Resolución: mínimo 1200×900px
-- Formato: .jpg optimizado (80% calidad)
-- Peso máximo: 300KB por imagen
-- Herramienta de optimización: squoosh.app o tinyjpg.com
+Lumiere Studio fue concebido como una propuesta digital centrada en la imagen, el estilo y la presencia visual.  
+Su estructura busca transmitir una sensación profesional, elegante y contemporánea, ideal para una marca creativa o estudio digital.
 
-## Fuentes gratuitas
-- unsplash.com (buscar términos en inglés)
-- pexels.com
-- pixabay.com (verificar licencia comercial)
+## Características
+
+- Diseño visual atractivo
+- Enfoque en branding e identidad
+- Responsive design
+- Estructura adaptable a portafolio o servicios
+- Estilo limpio, moderno y profesional
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Objetivo del proyecto
+
+Construir una presencia digital atractiva y profesional para una marca o estudio, con una base sólida para seguir creciendo.
+
+## Estado del proyecto
+
+Proyecto base en evolución.
+
+## Autor
+
+Desarrollado por **millesvc**
